@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>TOPIC : Error Handling</title>
+</head>
+<body>
+  <script>
+    var Talentio = "TalentioCompany";
+    try {
+    var rev = Talentio.split("").reverse().join("");
+    document.write(rev);
+ }
+ catch(err) {
+  document.write.innerHTML = err.name;
+}
+  finally {
+    console.log(typeof Talentio);
+  }
+</script>
+</body>
+</html>
